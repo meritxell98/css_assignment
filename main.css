@@ -10,6 +10,7 @@
   justify-content: center;
   width: 100%;
   overflow: hidden;
+  margin-bottom: 4.6rem;
 }
 
 .quote-container {
@@ -28,4 +29,35 @@
 
 .quote-author {
   align-self: flex-end;
+}
+
+.cta-section {
+  color: #F9FAF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4.6rem;
+}
+
+.cta-container {
+  padding: 2.6rem;
+  background-color: #3882F6;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around
+}
+
+.cta-btn {
+  color: #F9FAF8;
+  border: 1px solid #F9FAF8;
+  border-radius: 6px;
+  padding: 0.5rem 2.6rem;
+  background-color: #3882F6;
+  cursor: pointer;
+  transition: filter 0.2s ease;
+}
+
+.cta-btn:hover {
+  filter: brightness(1.2);
 }
