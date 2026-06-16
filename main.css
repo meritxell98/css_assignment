@@ -15,6 +15,7 @@
 * {
   font-family: "Roboto";
 }
+<<<<<<< HEAD
 
 * {
   margin: 0;
@@ -47,3 +48,5 @@
 .quote-author {
   align-self: flex-end;
 }
+=======
+>>>>>>> ec18e95 (Use Roboto font)
