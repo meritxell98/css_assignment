@@ -44,3 +44,18 @@
 .quote-author {
   align-self: flex-end;
 }
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: white;
+    border-radius: 12px;
+
+    padding: 2rem;
+    width: 450px;
+    min-height: 180px;
+
+    box-sizing: border-box;
+}
