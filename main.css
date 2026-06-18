@@ -84,3 +84,18 @@ figcaption {
 .quote-author {
   align-self: flex-end;
 }
+
+
+/*MEDIA QUERIES*/
+@media (max-width: 768px) {
+  .card-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 20rem;
+  }
+}
