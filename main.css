@@ -44,3 +44,15 @@
 .quote-author {
   align-self: flex-end;
 }
+footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  text-align: center;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  footer{
+    font-size: 12px;
+  }
+}
