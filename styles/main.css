@@ -28,6 +28,7 @@ nav{
 
     background-color: #1f2d44;
     padding: 1.5rem 2.6rem;
+    position: sticky;
 }
 
 .logo {
