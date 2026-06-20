@@ -48,14 +48,10 @@ nav{
     font-size: 14px;
 }
 
-/*Hero Section*/
-
-
 /* Hero Section */
 .hero {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
     width: 100%;
 
     margin: 0 auto;
@@ -70,7 +66,7 @@ nav{
     gap: 1.5rem;
 
     flex: 1;
-    max-width: 500px;
+    width: 13.75rem;
 }
 
 .hero-content h1 {
@@ -92,8 +88,14 @@ nav{
 
     flex: 1;
     width: 100px;
-    height: 10px;
     overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 0.5rem;
 }
 
 
