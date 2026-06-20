@@ -21,7 +21,7 @@ body{
    font-family: "Roboto";
 }
 
-navbar {
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
