@@ -329,6 +329,8 @@ article p {
     width: 100%;
     max-width: 100%;
     flex: none;
+    display: flex;
+    align-items: center;
   }
 
   .hero-content h1 {
