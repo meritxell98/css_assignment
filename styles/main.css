@@ -69,7 +69,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 3rem;
   color: #fff;
 }
 
@@ -128,7 +127,7 @@ h2 {
 .card-row {
   display: flex;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1.6rem;
   padding: 2.6rem 0;
 }
 
