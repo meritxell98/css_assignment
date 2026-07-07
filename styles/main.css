@@ -27,16 +27,20 @@ body {
 
 header {
   width: 100%;
+  background-color: #1b263b;
+  position: sticky;
+  top: 0;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1b263b;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 1.5rem 2.6rem;
-  position: sticky;
-  top: 0;
+  box-sizing: border-box;
 }
 
 .logo {
@@ -63,9 +67,11 @@ nav {
 }
 
 .hero {
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 5rem 10rem;
+  padding: 5rem 2.6rem;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -125,10 +131,15 @@ h2 {
 }
 
 .card-row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 2.6rem;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 1.6rem;
-  padding: 2.6rem 0;
 }
 
 .card {
@@ -159,7 +170,10 @@ figcaption {
 }
 
 .quote-container {
-  width: 50%;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   padding: 2.6rem 5.2rem;
@@ -181,11 +195,14 @@ figcaption {
   display: flex;
   justify-content: center;
   padding: 2rem 2.6rem;
+  box-sizing: border-box;
 }
 
 .newsletter-content {
   width: 100%;
-  max-width: 59.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
   background-color: #4285f4;
   border-radius: 0.75rem;
   display: flex;
