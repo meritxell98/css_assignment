@@ -176,7 +176,7 @@ figcaption {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  padding: 2.6rem 5.2rem;
+  padding: 4rem 2.6rem;
 }
 
 .quote-text {
@@ -192,6 +192,8 @@ figcaption {
 
 .newsletter {
   width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   padding: 2rem 2.6rem;
@@ -200,8 +202,6 @@ figcaption {
 
 .newsletter-content {
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
   box-sizing: border-box;
   background-color: #4285f4;
   border-radius: 0.75rem;
