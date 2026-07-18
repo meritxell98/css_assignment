@@ -61,7 +61,6 @@ nav {
   font-size: 14px;
 }
 
-/* Hero Section */
 .hero-section {
   background-color: #1b263b;
 }
@@ -231,6 +230,27 @@ figcaption {
   font-weight: 600;
   font-size: 14px;
   max-width: 120px;
+}
+
+.btn:hover {
+  background-color:#4285f4;
+  color: #fff;
+}
+
+.btn-dark{
+  border: none;
+  background-color: #1b263b;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.3rem;
+  font-weight: 600;
+  font-size: 14px;
+  max-width: 120px;
+}
+
+.btn-dark:hover {
+  background-color: #4285f4;
+  color: #fff;
 }
 
 .info-card {
