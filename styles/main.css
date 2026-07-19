@@ -127,7 +127,7 @@ h2 {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 5rem 2.6rem;
+  padding: 5rem 0;
 }
 
 .card-row {
@@ -235,7 +235,7 @@ figcaption {
 }
 
 .btn:hover {
-  background-color:#1b263b;
+  background-color:#21448e;
   color: #fff;
 }
 
