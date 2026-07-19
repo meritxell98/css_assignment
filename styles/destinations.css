@@ -1,13 +1,26 @@
-.travel-card-row {
+.destinations-section {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   box-sizing: border-box;
   padding: 5rem 2.6rem;
+}
+
+.destinations-section h1 {
+  text-align: center;
+  margin-bottom: 2.6rem;
+}
+
+.travel-card-row {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 1.6rem;
+}
+
+.travel-card-row + .travel-card-row {
+  margin-top: 2.6rem;
 }
 
 .travel-card {
@@ -50,7 +63,15 @@
 }
 
 @media (max-width: 768px) {
- 
+
+  .destinations-section {
+    padding: 3rem 1.5rem;
+  }
+
+  .destinations-section h1 {
+    font-size: 1.75rem;
+    margin-bottom: 1.6rem;
+  }
 
   .travel-card-row {
     flex-direction: column;
