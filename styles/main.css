@@ -127,7 +127,7 @@ h2 {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding-top: 2.6rem;
+  padding: 5rem 2.6rem;
 }
 
 .card-row {
@@ -196,7 +196,7 @@ figcaption {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  padding: 2rem 2.6rem;
+  padding: 5rem 2.6rem;
   box-sizing: border-box;
 }
 
