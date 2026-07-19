@@ -25,33 +25,44 @@
 
 .travel-card {
   width: 18.75rem;
+  height: 24rem;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .travel-card .travel-card-image {
   width: 100%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
   object-position: center;
   border-radius: 0.7rem;
 }
 
-.travel-card-footer {
-  text-align: center;
-  margin-top: 8px;
-
+.travel-card h2 {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
-.travel-card h2{
-    text-align: left !important; 
-    margin-bottom: 0.75rem;
+.travel-card p {
+  margin: 0;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.travel-card-footer {
+  margin-top: auto;
 }
 
 .travel-card-footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 0.75rem;
+    padding-top: 0.75rem;
 }
 
 .travel-card-footer strong {
@@ -82,5 +93,6 @@
   .travel-card {
     width: 90%;
     max-width: 20rem;
+    height: auto;
   }
 }
