@@ -30,7 +30,7 @@
 }
 
 .travel-card h2{
-    text-align: left;
+    text-align: left !important; 
     margin-bottom: 0.75rem;
 }
 
