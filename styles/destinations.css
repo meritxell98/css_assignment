@@ -3,7 +3,7 @@
   max-width: 1200px;
   margin: 0 auto;
   box-sizing: border-box;
-  padding: 2.6rem;
+  padding: 5rem 2.6rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -11,7 +11,7 @@
 }
 
 .travel-card {
-  width: 15.75rem;
+  width: 18.75rem;
   margin: 0;
 }
 
