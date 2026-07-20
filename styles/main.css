@@ -86,7 +86,7 @@ nav {
   gap: 1.5rem;
 }
 
-.hero-content h1 {
+h1 {
   font-size: 4rem;
   line-height: 1.1;
   font-weight: 700;
@@ -366,7 +366,7 @@ article.destination .img-card img {
     align-items: center;
   }
 
-  .hero-content h1 {
+  h1 {
     font-size: 2.5rem;
   }
 
