@@ -25,7 +25,7 @@
 
 .travel-card {
   width: 18.75rem;
-  height: 24rem;
+  min-height: 24rem;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -48,8 +48,6 @@
 
 .travel-card p {
   margin: 0;
-  overflow: hidden;
-  display: -webkit-box;
 }
 
 .travel-card-footer {
@@ -91,6 +89,5 @@
   .travel-card {
     width: 90%;
     max-width: 20rem;
-    height: auto;
   }
 }
